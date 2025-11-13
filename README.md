@@ -42,7 +42,7 @@ To be added
 TBA
 **1. Clone the repo:**
 ```bash
-git clone https://github.com/dmitrijslasko/philosopher42.git
+git clone https://github.com/dmitrijslasko/42_philosophers.git]
 ```
 **2. Go into the folder:**
 ```bash
