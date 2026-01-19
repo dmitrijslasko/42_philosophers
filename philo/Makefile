@@ -219,6 +219,9 @@ define run_helgrind_test
 	echo "-----------------------------------------------------" | tee -a $$LOGFILE
 endef
 
+test:
+	make -C ./visualizer
+	./philo 12 800 200 200 | ./visualizer/visualizer
 
 tests: re
 	mkdir -p logs
